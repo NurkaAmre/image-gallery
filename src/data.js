@@ -65,7 +65,7 @@ export const DATA = [
   {
     id: 'i11',
     image: img11,
-    isSelected: true,
+    isSelected: false,
     isFeatured: true
   },
 ].sort((a, b) => {
