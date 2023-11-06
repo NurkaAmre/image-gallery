@@ -1,0 +1,54 @@
+/* css classes for image gallery item */
+.image_gallery__item {
+  overflow: hidden;
+  position: relative;
+  grid-column: span 1;
+  grid-row: span 1;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.featured_item {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.image_gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image_gallery__item__overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.image_gallery__item__overlay input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.image_gallery__item:hover .image_gallery__item__overlay {
+  display: block;
+}
+
+.selected {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+@media(min-width: 580px) {
+  .featured_item {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
