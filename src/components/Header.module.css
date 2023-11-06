@@ -1,0 +1,41 @@
+.header {
+  padding: 1rem;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.header h1 input {
+  width: 20px;
+  height: 20px;
+}
+
+.header button {
+  color: red;
+  font-size: 1rem;
+  font-weight: 300;
+  background: transparent;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.header button:hover {
+  color: #c20202;
+}
+
+.header button:active {
+  transform: translateY(-2px);
+}
