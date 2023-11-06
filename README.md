@@ -25,7 +25,7 @@
   - [📝 License ](#-license-)
 
 
-# [Image Gallery] <a name="about-project"></a>
+# Image Gallery <a name="about-project"></a>
 This project is an Image Gallery built with React, JavaScript, HTML, and CSS. It allows users to view an image gallery on different devices, select and delete multiple images, and update the image order via drag and drop.
 
 
@@ -45,7 +45,7 @@ This project is an Image Gallery built with React, JavaScript, HTML, and CSS. It
 
 ### Key Features <a name="key-features"></a>
 
-- Users can see the image gallery with there different devices
+- Users can see the image gallery with their different devices
 - Users can select and delete multiple images
 - Users can update image order by drag and drop
 
@@ -53,7 +53,10 @@ This project is an Image Gallery built with React, JavaScript, HTML, and CSS. It
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://image-gallery-one-ebon.vercel.app/)
+
+![Capture](https://github-production-user-asset-6210df.s3.amazonaws.com/35267447/280624832-80eec994-d6e6-489a-b057-b081c5f81f3d.PNG)
+![Capture2](https://github-production-user-asset-6210df.s3.amazonaws.com/35267447/280624846-07d414a2-1021-42a3-b079-ba88e5151cf7.PNG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +66,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 - First of all, To run the front-end you need to run the [back-end](https://github.com/Thinus01/Resort_Booking_Back-end) on your local machine.
 - First of all, To run the project on your local machine make sure you have installed [NodeJs](https://nodejs.org).
 - Then make sure you have installed [React](https://reactjs.org/) on your local machine if you want to use this project locally.
@@ -78,7 +81,7 @@ git clone https://github.com/raihan2bd/image-gallery
 
 ### Install
 
-- To install all the npm packages navigate the folder address on your terminal and enter the below command ⬇️
+- To install all the npm packages navigate to the folder address on your terminal and enter the below command ⬇️
 ``` bash
 npm install
 ```
