@@ -27,10 +27,6 @@ const GalleryItem = (props) => {
       <div
         className={overlayClasses}
         draggable={false}
-        onDragStart={(e) => {
-          e.stopPropagation();
-          e.preventDefault();
-        }}
       >
         <input
           type="checkbox"

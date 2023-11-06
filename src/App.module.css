@@ -3,3 +3,30 @@
   background: #fff;
   border-radius: 12px;
 }
+
+.image_gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1.2rem;
+  padding: 1.2rem;
+  list-style: none;
+}
+
+@media (min-width: 580px) {
+  .image_gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .image_gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .image_gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
