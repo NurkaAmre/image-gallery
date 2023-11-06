@@ -3,6 +3,8 @@ import classes from "./Header.module.css";
 
 const Header = (props) => {
   const { count, onDeleteImages } = props;
+
+  // conditionally render header base on selected images count
   if (count <= 0) {
     return (
       <header className={classes.header}>
